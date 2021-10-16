@@ -49,6 +49,7 @@ var/
 .installed.cfg
 *.egg
 resources/*
+db.sqlite3
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
