@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -6,8 +9,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="icon.png">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{% static 'frontend/main.css' %}">
 </head>
 <body>
 
@@ -18,4 +20,5 @@
 
 {% include 'frontend/partials/footer.html' %}
 </body>
+<script src="{% static 'frontend/index.bundle.js' %}"></script>
 </html>
