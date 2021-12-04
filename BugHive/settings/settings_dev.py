@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'BugHive.components.users',
     'BugHive.components.frontend',
-    'BugHive.components.recorder',
+    'BugHive.components.audio',
 ]
 
 MIDDLEWARE = [
